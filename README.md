@@ -4,7 +4,7 @@
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Local-first](https://img.shields.io/badge/deployment-local--first-green.svg)](#security--privacy)
 
-A **local-first, multi-agent reasoning workspace** that challenges your ideas through adversarial debate, web-grounded research, and Socratic dialogue. Your intellectual history stays on your machine in a private vector database—never uploaded to a shared cloud by default.
+A **local-first, multi-agent reasoning workspace** that challenges your ideas through adversarial debate, web-grounded research, and Socratic dialogue. Your intellectual history stays on your machine in a private vector database — never uploaded to a shared cloud by default.
 
 ---
 
