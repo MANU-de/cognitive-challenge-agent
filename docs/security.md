@@ -4,7 +4,7 @@
 
 The **Cognitive Challenge Agent (CCA)** is a high-friction intellectual ecosystem. Because the system builds a high-resolution "Digital Twin" of a user's reasoning patterns and stores private intellectual property, security is treated as a foundational architectural requirement rather than an add-on.
 
-Our security model follows the **"Hardened Harness"** philosophy, focusing on data privacy, agentic governance, and input/output integrity.
+My security model follows the **"Hardened Harness"** philosophy, focusing on data privacy, agentic governance, and input/output integrity.
 
 ---
 
