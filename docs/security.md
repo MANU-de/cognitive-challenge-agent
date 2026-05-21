@@ -32,7 +32,7 @@ The system utilizes **ChromaDB** for local vector persistence.
 
 ## 3. Agentic Governance (The Swarm Harness)
 
-In a multi-agent system, the "Confused Deputy" problem is a significant risk. We mitigate this through **Role-Based Access Control (RBAC)** for agents.
+In a multi-agent system, the "Confused Deputy" problem is a significant risk. I mitigate this through **Role-Based Access Control (RBAC)** for agents.
 
 ### The "Safety Officer" Protocol
 
@@ -67,7 +67,7 @@ The **Cognitive Architect** performs a "Look-Back" audit. This ensures that the 
 ## 6. Recommended Hardening Actions for Users
 
 1. **Disk Encryption:** Ensure the project directory is on an encrypted drive.
-2. **API Scoping:** Use "Restricted Keys" in Google AI Studio that only have access to the specific models used (gemini-1.5-flash and text-embedding-004).
+2. **API Scoping:** Use "Restricted Keys" in Google AI Studio that only have access to the specific models used (gemini-3-flash-preview and text-embedding-004).
 3. **Audit Logs:** Periodically review the terminal output (Verbose Mode) to ensure the internal agentic debate remains grounded in the provided research.
 
 ---
