@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+langgraph
+langchain-google-genai
+python-dotenv
+pydantic
+chromadb
+tavily-python
+numpy
+streamlit
+streamlit-chat
+streamlit-agraph
+requests
+crewai

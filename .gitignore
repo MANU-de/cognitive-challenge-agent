@@ -1,0 +1,125 @@
+# =============================================================================
+# Cognitive Challenge Agent (CCA) — Git ignore rules
+# Keeps API credentials and private user/cognitive data off GitHub.
+# =============================================================================
+
+# --- Secrets & environment (Google Gemini, Tavily, etc.) ---
+.env
+.env.*
+!.env.example
+*.env.local
+*.env.development
+*.env.production
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+credentials*.json
+service-account*.json
+*-credentials.json
+token.json
+.auth/
+
+# --- Private user data (ChromaDB "Idea Graph" / cognitive profile) ---
+# Persisted by memory.py (SemanticMemory) — contains thoughts, embeddings, audits
+cca_chroma/
+chroma.sqlite3
+
+# --- CrewAI / agent runtime storage (if enabled later) ---
+.crewai/
+crewai_storage/
+CREWAI_STORAGE_DIR/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# --- Testing / coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# --- Type checkers / linters ---
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.pytype/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Streamlit (ui.py) — never commit API keys via secrets.toml ---
+.streamlit/secrets.toml
+
+# --- Logs & local databases ---
+*.log
+logs/
+*.sqlite
+*.sqlite3
+*.db
+
+# --- OS & editors ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# --- Local IDE settings (may contain paths or tokens) ---
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json.example
+
+# --- Misc local tooling ---
+.cache/
+*.bak
+*.tmp
+.temp/
